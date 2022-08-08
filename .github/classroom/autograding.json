@@ -3,12 +3,22 @@
     {
       "name": "test",
       "setup": "",
-      "run": "sh ./test.sh",
+      "run": "sh ./1.sh",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 15,
-      "points": 100
+      "points": 10
+    },
+    {
+      "name": "test",
+      "setup": "",
+      "run": "sh ./2.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
     }
   ]
 }
