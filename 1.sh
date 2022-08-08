@@ -1,6 +1,6 @@
 #!/bin/sh
 cd os 
-timeout 900 make run > ../output
+timeout 1800 make run > ../output
 status=$?
 if [ $status -eq 124 ] #timed out
 then
