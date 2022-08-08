@@ -8,7 +8,7 @@ def test():
     output = output.split('\n')
     count = 0
     for i in output:
-        if re.search(r'test passed', i):
+        if re.search(r'test passed', i) or re.search(r'Pass', i):
             count += 1
     print("passed syscall ", count)
 
