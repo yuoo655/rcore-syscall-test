@@ -9,7 +9,7 @@ def test():
     for i in output:
         if re.search(r'test passed', i) or re.search(r'Pass', i):
             count += 1
-    print("passed syscall ", count)
+    print("passed test ", count)
 
     assert count == 220
 
