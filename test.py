@@ -4,7 +4,6 @@ import re
 
 def test():
     output = sys.stdin.read(1000000)
-    print(type(output))
     output = output.split('\n')
     count = 0
     for i in output:

@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "test1",
-      "setup": "",
-      "run": "sh 1.sh",
+      "setup": "sh runos.sh",
+      "run": "python3 test.py < output",
       "input": "",
       "output": "",
       "comparison": "included",
