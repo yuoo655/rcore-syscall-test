@@ -1,1 +1,2 @@
-echo hello_world!
+echo failed! > output
+python3 test.py < output

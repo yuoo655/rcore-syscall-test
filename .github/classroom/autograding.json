@@ -1,24 +1,34 @@
 {
   "tests": [
     {
-      "name": "test",
+      "name": "test1",
       "setup": "",
-      "run": "sh ./1.sh",
+      "run": "sh 1.sh",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 15,
-      "points": 10
+      "points": 100
     },
     {
-      "name": "test",
+      "name": "test2",
       "setup": "",
-      "run": "sh ./2.sh",
+      "run": "sh 2.sh",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 15,
-      "points": 10
+      "points": 100
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "sh 1.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 100
     }
   ]
 }
